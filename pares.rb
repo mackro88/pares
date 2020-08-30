@@ -4,7 +4,7 @@ if user < 0
 else
     i = 0
     par = 0
-    while i < user
+    while i <= user
         if i.even?
             par += i
         end
